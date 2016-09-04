@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "GoGo.Start", "GoGo.Start\GoGo.Start.xproj", "{97F6B5D0-E770-4C0B-96AA-B6343B4D806A}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "GoGo.Api", "GoGo.Api\GoGo.Api.xproj", "{EE878557-0B99-4886-B17F-0ECBA02A393B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{97F6B5D0-E770-4C0B-96AA-B6343B4D806A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97F6B5D0-E770-4C0B-96AA-B6343B4D806A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97F6B5D0-E770-4C0B-96AA-B6343B4D806A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97F6B5D0-E770-4C0B-96AA-B6343B4D806A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE878557-0B99-4886-B17F-0ECBA02A393B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE878557-0B99-4886-B17F-0ECBA02A393B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE878557-0B99-4886-B17F-0ECBA02A393B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE878557-0B99-4886-B17F-0ECBA02A393B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
