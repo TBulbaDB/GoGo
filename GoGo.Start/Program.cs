@@ -17,6 +17,7 @@ namespace GoGo.Start
                 {
                     Environment.Exit(0);
                     return;
+					
                 }
             }
 
