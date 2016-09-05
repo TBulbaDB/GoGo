@@ -7,6 +7,8 @@ Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "GoGo.Start", "GoGo.Start\Go
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "GoGo.Api", "GoGo.Api\GoGo.Api.xproj", "{EE878557-0B99-4886-B17F-0ECBA02A393B}"
 EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "GoGo.Web", "GoGo.Web\GoGo.Web.xproj", "{AA91575B-AD5A-4752-9940-BCD3093EB5BF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{EE878557-0B99-4886-B17F-0ECBA02A393B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EE878557-0B99-4886-B17F-0ECBA02A393B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EE878557-0B99-4886-B17F-0ECBA02A393B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA91575B-AD5A-4752-9940-BCD3093EB5BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA91575B-AD5A-4752-9940-BCD3093EB5BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA91575B-AD5A-4752-9940-BCD3093EB5BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA91575B-AD5A-4752-9940-BCD3093EB5BF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
