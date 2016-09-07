@@ -1,8 +1,8 @@
 {
   "dependencies": {
     "Microsoft.NETCore.App": {
-      "version": "1.0.0",
-      "type": "platform"
+      "version": "1.0.0"
+      //"type": "platform"
     },
     "Microsoft.AspNetCore.Diagnostics": "1.0.0",
     "Microsoft.AspNetCore.Mvc": "1.0.0",
@@ -18,7 +18,8 @@
     "Microsoft.Extensions.Logging.Console": "1.0.0",
     "Microsoft.Extensions.Logging.Debug": "1.0.0",
     "Microsoft.Extensions.Options.ConfigurationExtensions": "1.0.0",
-    "BundlerMinifier.Core": "2.2.281"
+    "BundlerMinifier.Core": "2.2.281",
+    "GoGo.Api": "1.0.0-*"
   },
 
   "tools": {
@@ -35,8 +36,19 @@
   },
 
   "buildOptions": {
-    "emitEntryPoint": true,
-    "preserveCompilationContext": true
+        "preserveCompilationContext": true,
+        "emitEntryPoint": true,
+        "warningsAsErrors": true,
+        "debugType": "portable",
+        "xmlDoc": false,
+        "compile": {
+            "exclude": [
+                "wwwroot"
+            ]
+        },
+        "copyToOutput": {
+            "include": [ "Views", "wwwroot", "Logs" ]
+        }
   },
 
   "runtimeOptions": {
@@ -58,5 +70,11 @@
   "scripts": {
     "prepublish": [ "bower install", "dotnet bundle" ],
     "postpublish": [ "dotnet publish-iis --publish-folder %publish:OutputPath% --framework %publish:FullTargetFramework%" ]
+  },
+  "runtimes": {
+    "win7-x64": {},
+    "win10-x64": {},
+    "osx.10.11-x64": {},
+    "ubuntu.14.04-x64": {} 
   }
 }
